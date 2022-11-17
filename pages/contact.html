@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--language-->
+<html lang="en">
+<!--/language-->
+
+<head>
+    <!--webpage browser title-->
+    <title>Contact Us | Backyard Barbarian</title>
+    <!--/webpage browser title-->
+
+    <!--metatags-->
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Crystal Rapchuk">
+    <meta name="author" content="Byron Stuike">
+    <meta name="keywords" content="Alberta, board games, books, card games, comics, Calgary, community, D&D, dice, dungeons and dragons, entertainment, fantasy, gaming, games workshop, gamers, hobby, local,
+        Magic the Gathering, miniatures, paint, Pathfinder, RPG, shop, store, strategy, tournaments, Wizards of the Coast">
+    <meta name="description" content="We appreciate and encourage feedback from our customers, and we work hard to deliver the experience you want, so let us know how we’re doing!">
+    <!--/metatags-->
+
+    <!--stylesheet links-->
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amarante" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../styles/contact.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/screen.css"/>
+    <link rel="icon" type="image/x-icon" href="../images/barbarian-icon.ico">
+    <!--/stylesheet links-->
+
+</head>
+
+<body>
+
+    <div id="skip"><a href="#SkipLink">Skip to Main Content</a></div>
+
+    <header>
+        <!--logo-->
+        <img src="../images/barbarian.png" alt="Backyard Barbarians logo" title="Backyard Barbarians" width="92" height="75" />
+        <!--/logo-->
+    </header>
+
+    <nav class="flex-container">
+        <!--links to other pages on the website-->
+        <a href="../index.html" target="_top">Home</a>
+        <a href="products.html" target="_top">Products</a>
+        <a href="about.html" target="_top">About</a>
+        <a class="current" href="contact.html" target="_top">Contact</a>
+        <!--/links to other pages on the website-->
+    </nav>
+
+    <!--Banner, text, and color elements for the background-->
+    <div id="backLayer"></div>
+    <div id="frontLayer"></div>
+    <div id="textLayer">Backyard Barbarian</div>
+    <!--/Banner, text, and color elements for the background-->
+
+    <article id="SkipLink">
+        <h1>Contact Us</h1>
+        <p>Looking for something special, but don&rsquo;t see it on our site? Let us know, we can special order
+            hundreds of items. Just want to say hello or leave a comment? Or better yet share a story about how great
+            your experience was at Backyard Barbarian, fill out the section below and hit submit. Our goal is to
+            respond to all inquiries within 24 hours. We love hearing from you!</p>
+        <br />
+        <div id="unique">
+            <form method="post" action="mailto:something@email.com" name="ContactForm">
+
+                <span id="uniqueH">Customer Inquiries</span>
+                <p>
+                    Fillout the form below to send us any questions or comments. Thank you!
+                </p>
+                <p class="line"></p>
+                    <label> Subject: <span class="required">(required)</span><br />
+                        <input name="subject" type="text" size="68" value="" maxlength="60" required />
+                    </label>
+                <p>
+                    <label> Details:<br />
+                        <textarea name="detail" rows="8" cols="70"></textarea>
+                    </label>
+                </p>
+
+                <p class="line"></p>
+                    <label> Email: <span class="required">(required)</span><br />
+                        <input name="email" type="email" size="30" Pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            placeholder="address@email.com" maxlength="30" required />
+                    </label>
+                <p>
+                    <label> Telephone:<br />
+                        <input name="telephone" type="tel" size="30" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}"
+                            maxlength="20" />
+                    </label>
+                </p>
+
+                <p>
+                    <label> Date:<br />
+                        <input name="date" type="date" />
+                    </label>
+                </p>
+                <br />
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+            </form>
+        </div>
+        <br/>
+    </article>
+
+    <footer>
+        <!--Copyright information-->
+        Copyright &copy; 2018 The Backyard Barbarian
+        <!--/Copyright information-->
+    </footer>
+    
+</body>
+
+</html>

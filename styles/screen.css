@@ -1,0 +1,57 @@
+/* CSS page for general @media queries: Backyard Barbarian */
+
+@media screen and (max-width: 20.00em){
+
+    /* header attributes */
+    header {
+    grid-column: 1/6;
+}
+
+
+    /* navbar attributes */
+    nav {
+        grid-column: 6/13;
+    }
+}
+
+@media screen and (min-width: 20.01em) and (max-width: 37.50em){
+
+    /* header attributes */
+    header {
+        grid-column: 1/5;
+    }
+    
+    
+    /* navbar attributes */
+    nav {
+        grid-column: 5/13;
+    }
+}
+
+@media screen and (min-width: 37.51em) and (max-width: 60.00em){
+
+    /* header attributes */
+    header {
+        grid-column: 1/6;
+    }
+    
+    
+    /* navbar attributes */
+    nav {
+        grid-column: 6/13;
+    }
+}
+
+@media screen and (min-width: 60.01em){
+    
+    /* header attributes */
+    header {
+        grid-column: 1/8;
+    }
+
+
+    /* navbar attributes */
+    nav {
+        grid-column: 8/13;
+    }
+}

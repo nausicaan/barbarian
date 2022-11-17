@@ -1,0 +1,41 @@
+/* "About Us" specific CSS page: Backyard Barbarian */
+
+/*Align images to the left of the page and define padding */
+.image-left {
+    float: left;
+    padding-right: 1%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+section, article {
+    padding: 15px 10px 50px 10px;
+}
+
+/* Section grid and text changes in paragraph */
+section {
+    grid-column: 1/6;
+    grid-row: 6/auto;
+}
+
+/* Article grid formation and text changes in paragraphs */
+article {
+    grid-column: 6/13;
+    grid-row: 6/auto;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 47.93em) {
+    article {
+        grid-column: 1/-1;
+        grid-row: 6/auto;
+    }
+    
+    section {
+        grid-column: 1/-1;
+        grid-row: 15/auto;
+    }
+}

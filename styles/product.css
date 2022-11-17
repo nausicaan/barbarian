@@ -1,0 +1,54 @@
+/* "Products" specific CSS page: Backyard Barbarian */
+
+/*Align images to the right of the page and define padding */
+.img-right {
+    float: right;
+    padding-left: 1%;
+    max-width: 100%;
+}
+
+.products {
+    grid-column: 1/11;
+    grid-row: 6/auto;
+    padding: 0% 2% 2% 2%;
+    font-size: 13pt;
+    line-height: 1.6;
+    overflow-y: scroll;
+}
+
+.side-banner {
+    grid-column: 11/13;
+    grid-row: 6/auto;
+    padding: 0.5%;
+}
+
+/* attribute selector for "_blank"*/
+a[target="_blank"] {
+    background-color: rgb(131, 130, 130);
+}
+
+.tap {
+    margin: 8px 0;
+    padding: 6px 10px;
+    background-color: whitesmoke;
+    color: brown;
+    border-radius: 14px;
+    display: inline-block;
+}
+
+.tap:hover {
+    background-color: brown;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 47.93em) {
+    .side-banner {
+        grid-column: 1/4;
+        grid-row: 6/auto;
+    }
+    
+    .products {
+        grid-column: 4/13;
+        grid-row: 6/auto;
+    }
+}

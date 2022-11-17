@@ -1,0 +1,73 @@
+/* home specific CSS page: Backyard Barbarian */
+
+article{
+    grid-column: 1/11;
+    grid-row: 6/auto;
+    padding: 1% 1% 5% 1%;
+}
+
+aside{
+    grid-column: 11/13;
+    grid-row: 6/auto;
+    padding: 3% 1%;
+}
+
+p:nth-of-type(1)::first-letter{
+    float: left;
+    width: 0.7em;
+    font-size: 350%;
+    line-height: 100%;
+    color: brown;
+}
+
+table{
+    margin: 10px 0;
+}
+
+caption{
+    caption-side: bottom;
+    visibility: hidden;
+}
+
+/* border attributes of the table, rows, and head */
+table, th, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+th{
+    font-family: 'Amarante', 'cursive';
+    color: whitesmoke;
+    font-weight: normal;
+    background-color: brown;
+    text-align: center;
+}
+
+/* sets the width of the table data cells, font attributes set*/
+td {width: 175px; font-weight: bold;}
+
+/* adds padding the the table head and row cells */
+th, td {padding: 1%;}
+
+@media screen and (max-width: 47.93em) {
+    article{
+        grid-column: 1/-1;
+        grid-row: 6/auto;
+        padding: 1%;
+    }
+    
+    aside{
+        grid-column: 1/-1;
+        grid-row: 20/auto;
+        padding: 4%;
+    }
+}
